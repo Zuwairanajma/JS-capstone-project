@@ -1,4 +1,4 @@
-import showCommentsList from './comments-count.js';
+import displayCommentsList from './display-comments.js';
 
 describe('showCommentsList', () => {
   test('should render the correct title element', () => {
@@ -16,7 +16,7 @@ describe('showCommentsList', () => {
       },
     ];
 
-    showCommentsList(mockedData, parent);
+    displayCommentsList(mockedData, parent);
 
     // make sure that the title element is present and contains the correct text
     const titleElement = parent.querySelector('h3');
@@ -39,7 +39,7 @@ describe('showCommentsList', () => {
       },
     ];
 
-    showCommentsList(mockedData, parent);
+    displayCommentsList(mockedData, parent);
 
     // the number of comments matches the length of the mocked data array
     expect(parent.childElementCount).toBe(mockedData.length);

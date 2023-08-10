@@ -1,4 +1,4 @@
-function showCommentsList(data, parent) {
+function displayCommentsList(data, parent) {
   data.forEach((comment) => {
     const commentContainer = document.createElement('div');
     const title = document.createElement('h3');
@@ -11,4 +11,4 @@ function showCommentsList(data, parent) {
   });
 }
 
-export default showCommentsList;
+export default displayCommentsList;

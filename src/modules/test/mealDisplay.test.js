@@ -1,4 +1,4 @@
-import renderlike, { mockDiv } from './display-homepage.js';
+import renderlike, { mockDiv } from './mealDisplay.js';
 
 describe('renderlike', () => {
   test('increments likes count on click', () => {
