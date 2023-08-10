@@ -8,8 +8,10 @@
   --font-family: "Poppins", sans-serif;
 }
 
-html {
-  overflow-x: hidden;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -24,9 +26,9 @@ body {
 header {
   margin: 0;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-direction: row;
+   justify-content: space-between;
+  /* align-items: center; */
+  /* flex-direction: row; */
   box-shadow: var(--box-shadow);
   width: 100%;
   padding: 0;
@@ -49,10 +51,6 @@ header {
 }
 
 header .logo {
-  /* display: flex;
-  flex-direction: row; */
-  /* justify-content: center;
-  align-items: center; */
   cursor: pointer;
 }
 
@@ -72,13 +70,16 @@ nav ul {
   display: flex;
   flex-direction: row;
   list-style: none;
-  margin-left: 107px;
+  margin: 10px;
   color: orange;
+  place-items: center;
 }
 
 header nav ul li {
   padding-left: 1em;
   cursor: pointer;
+  display: flex;
+  justify-content: space-between;
 }
 
 header nav ul #meals {
@@ -100,22 +101,19 @@ footer {
 }
 
 footer h2 {
-  margin-left: 1em;
+  margin-left: 22em;
   font-size: 1.2em;
   font-weight: 500;
 }
 
 .list-home {
-  /* display: flex;
-  flex-direction: row; */
   justify-content: center;
-  /* align-items: center; */
-  /* flex-wrap: nowrap; */
-  margin: 8em 2em;
+  margin-top: 8em;
   width: 95%;
   display: grid;
-  grid-template-columns: repeat(3, 280px);
-  column-gap: 154px;
+  grid-template-columns: repeat(3, 290px);
+  column-gap: 104px;
+  row-gap: -50px;
 }
 
 .cont-popup p {
@@ -135,8 +133,8 @@ footer h2 {
   display: grid;
   grid-template-rows: auto 25% 25%;
   margin: 0 1em 5em 0;
-  width: 25em;
-  height: 33em;
+  width: 22em;
+  height: 30em;
   background-color: white;
   border-radius: 0.5em;
   box-shadow: var(--box-shadow);
@@ -174,7 +172,7 @@ footer h2 {
 }
 
 .meal .div-like .div-heart .fa-heart:hover {
-  color: rgba(186, 62, 17, 0.7);
+  color: rgba(234, 53, 13, 0.7);
 }
 
 .meal .div-like .div-heart .fa-heart:active {
@@ -199,7 +197,7 @@ footer h2 {
 
 button {
   text-align: center;
-  background-color: var(--black);
+  background-color: orange;
   color: white;
   width: 8em;
   height: 2.5em;
@@ -208,7 +206,7 @@ button {
   font-size: medium;
   place-self: center;
   cursor: pointer;
-  margin-bottom: 3em;
+  margin-bottom: 6em;
   border: none;
   border-radius: 0.5em;
   box-shadow: var(--box-shadow);

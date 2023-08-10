@@ -93,7 +93,9 @@ import newLike from './new-like';
 // const apikey = 'tnE2k6P5BdZ2HCTjbd0V';
 async function fetchLikesData(apikey, likeid) {
   try {
-    const apikey = 'tnE2k6P5BdZ2HCTjbd0V';
+    // apikey = 'LHYarZybqm9V0G7OV772';
+    apikey = 'tnE2k6P5BdZ2HCTjbd0V';
+    // apikey = '4he1GbvuBDtTPVhI6Xq5';
     const response = await fetch(`https://us-central1-involvement-api.cloudfunctions.net/capstoneApi/apps/${apikey}/likes?`);
     const data = await response.json();
     return data.find((element) => element.item_id === likeid);
@@ -189,5 +191,7 @@ async function renderMeals(apikey) {
     console.error('Error rendering meals:', error);
   }
 }
+// Call the function and provide the API key
+// renderMeals('LHYarZybqm9V0G7OV772');
 
 export default renderMeals;

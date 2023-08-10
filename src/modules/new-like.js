@@ -18,8 +18,9 @@
 // export default newLike;
 
 async function newLike(id) {
-  const apiKey = 'tnE2k6P5BdZ2HCTjbd0V';
-  const url = `https://us-central1-involvement-api.cloudfunctions.net/capstoneApi/apps/${apiKey}/likes/`;
+  // const apiKey = 'tnE2k6P5BdZ2HCTjbd0V';
+  const apikey = 'LHYarZybqm9V0G7OV772';
+  const url = `https://us-central1-involvement-api.cloudfunctions.net/capstoneApi/apps/${apikey}/likes/`;
 
   try {
     const response = await fetch(url, {

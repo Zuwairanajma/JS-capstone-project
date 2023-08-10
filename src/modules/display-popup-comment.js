@@ -142,7 +142,7 @@ function createMealPopup(data, id) {
   meal.appendChild(d);
 
   const commentsContainer = document.createElement('div');
-  commentsContainer.className = 'comments-container-meal-popup-';
+  commentsContainer.className = 'comments-container-meal-popup';
   meal.appendChild(commentsContainer);
 
   showCommentsList(id, commentsContainer);

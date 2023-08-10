@@ -34,7 +34,8 @@
 // export default displayCommentsList;
 
 async function displayCommentsList(id) {
-  const apiKey = 'tnE2k6P5BdZ2HCTjbd0V';
+  // const apiKey = 'tnE2k6P5BdZ2HCTjbd0V';
+  const apiKey = 'LHYarZybqm9V0G7OV772';
   const url = `https://us-central1-involvement-api.cloudfunctions.net/capstoneApi/apps/${apiKey}/comments?item_id=${id}`;
 
   try {
