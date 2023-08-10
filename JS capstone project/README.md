@@ -127,9 +127,9 @@ run this command: npm run start
 
 
 👤 **Albert Kantwi**
-- GitHub: [@noelfoka](https://github.com/noelfoka)
-- Twitter: [@noelnomgne](https://twitter.com/noelnomgne)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/no%C3%ABl-nomgne-foka-063013231/)
+- GitHub: [@albertkantwi](https://github.com/albertkantwi)
+- Twitter: [@Albert_KAntwi](https://twitter.com/Albert_KAntwi)
+- LinkedIn: [Albert Antwi](https://www.linkedin.com/in/albert-antwi-557291263/)
 
 <!-- FUTURE FEATURES -->
 
