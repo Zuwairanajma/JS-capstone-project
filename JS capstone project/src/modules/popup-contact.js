@@ -78,9 +78,9 @@ const showPopupContacts = () => {
 
   createContact(
     'Albert Kantwi',
-    'noelfoka',
-    'noelnomgne',
-    'https://www.linkedin.com/in/no%C3%ABl-nomgne-foka-063013231/',
+    'albertkantwi',
+    null,
+    'https://www.linkedin.com/in/albert-antwi-557291263/',
   );
 
   closeIcon.addEventListener('click', () => {
